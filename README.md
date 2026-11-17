@@ -67,7 +67,7 @@ Wev_dev_III - Assignment - 03/
 
 Query options for the list: `category`, `supplier`, `search` (matches part of the name), `minPrice`, `maxPrice`, `sort` (like `-price` or `name,-price`), `page` and `limit` (10 by default, max 100).
 
-## A few things worth knowing
+## These are some points
 
 - `/low-stock` and `/summary` are written above `/:id` in the routes file. If they came after it, Express would treat the word "summary" as an id.
 - The stock endpoint checks the quantity and updates it in a single query, so a sale can never take the stock below zero.
@@ -77,7 +77,7 @@ Query options for the list: `category`, `supplier`, `search` (matches part of th
 
 ## Output screenshots
 
-(Paste each screenshot under its heading. The Postman window should show the method, URL, body, status code and response.)
+All ScreenShots are below
 
 ### 1. Create product
 `POST /api/products`
