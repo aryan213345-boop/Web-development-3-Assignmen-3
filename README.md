@@ -1,8 +1,8 @@
 # Assignment 3: Inventory and Data Management System
 
-**Course:** Web Dev III
-**Name:** Baibhav Kumar
-**Roll No:** 2501730427
+**Course:** Web Dev III <br>
+**Name:** Baibhav Kumar <br>
+**Roll No:** 2501730427 <br>
 **Date:** 17-11-2026
 
 ## About
@@ -84,84 +84,84 @@ All ScreenShots are below
 
 ![create product](screenshots/01-create.png)
 
-<br><br><br><br><br><br>
+<br><br><br><br>
 
 ### 2. Get all products
 `GET /api/products`
 
 ![get all](screenshots/02-get-all.png)
 
-<br><br><br><br><br><br>
+<br><br><br><br>
 
 ### 3. Pagination
 `GET /api/products?page=2&limit=5`
 
 ![pagination](screenshots/03-pagination.png)
 
-<br><br><br><br><br><br>
+<br><br><br><br>
 
 ### 4. Filtering
 `GET /api/products?category=Furniture`
 
 ![filter](screenshots/04-filter.png)
 
-<br><br><br><br><br><br>
+<br><br><br><br>
 
 ### 5. Sorting
 `GET /api/products?sort=-price`
 
 ![sort](screenshots/05-sort.png)
 
-<br><br><br><br><br><br>
+<br><br><br><br>
 
 ### 6. Get single product
 `GET /api/products/:id`
 
 ![get one](screenshots/06-get-one.png)
 
-<br><br><br><br><br><br>
+<br><br><br><br>
 
 ### 7. Update product
 `PUT /api/products/:id`
 
 ![update](screenshots/07-update.png)
 
-<br><br><br><br><br><br>
+<br><br><br><br>
 
 ### 8. Restock
 `PATCH /api/products/:id/stock` with `{"change": 10}`
 
 ![restock](screenshots/08-restock.png)
 
-<br><br><br><br><br><br>
+<br><br><br><br>
 
 ### 9. Sale with not enough stock
 `PATCH /api/products/:id/stock` with `{"change": -500}`
 
 ![sale error](screenshots/09-sale-error.png)
 
-<br><br><br><br><br><br>
+<br><br><br><br>
 
 ### 10. Low stock report
 `GET /api/products/low-stock`
 
 ![low stock](screenshots/10-low-stock.png)
 
-<br><br><br><br><br><br>
+<br><br><br><br>
 
 ### 11. Category summary
 `GET /api/products/summary`
 
 ![summary](screenshots/11-summary.png)
 
-<br><br><br><br><br><br>
+<br><br><br><br>
 
 ### 12. Validation error
 `POST /api/products` with `{"name": "x", "price": -5}`
 
 ![validation](screenshots/12-validation.png)
 
-<br><br><br><br><br><br>
+<br><br><br><br>
 
 ### 13. Delete product
 `DELETE /api/products/:id`
