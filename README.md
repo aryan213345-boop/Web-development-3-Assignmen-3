@@ -1,9 +1,9 @@
 # Assignment 3: Inventory and Data Management System
 
-**Course:** Web Dev III (Unit 3, CO3)
-**Name:** ______________________
-**Roll No:** ______________________
-**Date:** ______________________
+**Course:** Web Dev III
+**Name:** Baibhav Kumar
+**Roll No:** 2501730427
+**Date:** 17-11-2026
 
 ## About
 
