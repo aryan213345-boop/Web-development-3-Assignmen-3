@@ -1,8 +1,8 @@
 # Assignment 3: Inventory and Data Management System
 
 **Course:** Web Dev III <br>
-**Name:** Baibhav Kumar <br>
-**Roll No:** 2501730427 <br>
+**Name:** Aryan Kumar <br>
+**Roll No:** 2501730431 <br>
 **Date:** 17-11-2026
 
 ## About
